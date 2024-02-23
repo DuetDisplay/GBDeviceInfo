@@ -135,7 +135,11 @@
     
     #if TARGET_OS_SIMULATOR
         family = GBDeviceFamilySimulator;
-        BOOL iPadScreen = UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad;
+	#if TARGET_OS_VISION
+    	BOOL iPadScreen = false;
+	#else
+    	BOOL iPadScreen = UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad;
+	#endif
         model = iPadScreen ? GBDeviceModelSimulatoriPad : GBDeviceModelSimulatoriPhone;
         modelString = iPadScreen ? @"iPad Simulator": @"iPhone Simulator";
         display = GBDeviceDisplayUnknown;
