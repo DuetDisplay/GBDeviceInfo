@@ -471,11 +471,11 @@
                 @[@14, @5]: @[@(GBDeviceModeliPadPro12p9Inch6), @"iPad Pro 6th Gen (12.9 inch, WiFi)", @(GBDeviceDisplay12p9Inch), @264],
                 @[@14, @6]: @[@(GBDeviceModeliPadPro12p9Inch6), @"iPad Pro 6th Gen (12.9 inch, WiFi+Cellular)", @(GBDeviceDisplay12p9Inch), @264],
 
-                // Air 6, 2024
+                // Air 6 11-inch, 2024
                 @[@14, @8]: @[@(GBDeviceModeliPadAir11Inch6), @"iPad Air 6th Gen (11 inch, WiFi)", @(GBDeviceDisplay11Inch), @264],
                 @[@14, @9]: @[@(GBDeviceModeliPadAir11Inch6), @"iPad Air 6th Gen (11 inch, WiFi+Cellular)", @(GBDeviceDisplay13Inch), @264],
 
-                // Air 7, 2024
+                // Air 6 13-inch, 2024
                 @[@14, @10]: @[@(GBDeviceModeliPadAir13Inch6), @"iPad Air 6th Gen (13 inch, WiFi)", @(GBDeviceDisplay11Inch), @264],
                 @[@14, @11]: @[@(GBDeviceModeliPadAir13Inch6), @"iPad Air 6th Gen (13 inch, WiFi+Cellular)", @(GBDeviceDisplay13Inch), @264],
 
