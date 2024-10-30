@@ -89,8 +89,8 @@ typedef NS_ENUM(NSInteger, GBDeviceModel) {
     GBDeviceModeliPadAir3,
     GBDeviceModeliPadAir4,
     GBDeviceModeliPadAir5,
-    GBDeviceModeliPadAir6,
-    GBDeviceModeliPadAir7,
+    GBDeviceModeliPadAir11Inch6,
+    GBDeviceModeliPadAir13Inch6,
     GBDeviceModeliPadPro9p7Inch,
     GBDeviceModeliPadPro10p5Inch,
     GBDeviceModeliPadPro12p9Inch,
@@ -133,6 +133,7 @@ typedef NS_ENUM(NSInteger, GBDeviceDisplay) {
     GBDeviceDisplay10p9Inch,
     GBDeviceDisplay11Inch,
     GBDeviceDisplay12p9Inch,
+	GBDeviceDisplay13Inch,
 };
 
 typedef struct {
