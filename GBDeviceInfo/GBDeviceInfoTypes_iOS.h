@@ -133,7 +133,7 @@ typedef NS_ENUM(NSInteger, GBDeviceDisplay) {
     GBDeviceDisplay10p9Inch,
     GBDeviceDisplay11Inch,
     GBDeviceDisplay12p9Inch,
-	GBDeviceDisplay13Inch,
+    GBDeviceDisplay13Inch,
 };
 
 typedef struct {
