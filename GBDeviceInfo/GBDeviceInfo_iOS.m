@@ -475,6 +475,10 @@
                 @[@15, @5]: @[@(GBDeviceModeliPadAir13Inch7), @"iPad Air (13 inch) (M3)", @(GBDeviceDisplay13Inch), @264],
                 @[@15, @6]: @[@(GBDeviceModeliPadAir13Inch7), @"iPad Air (13 inch) (M3)", @(GBDeviceDisplay13Inch), @264],
 
+                // iPad 11th Gen, 2025
+                @[@15, @7]: @[@(GBDeviceModeliPad11), @"iPad (11th Gen)", @(GBDeviceDisplay10p9Inch), @264],
+                @[@15, @8]: @[@(GBDeviceModeliPad11), @"iPad (11th Gen)", @(GBDeviceDisplay10p9Inch), @264],
+
                 // Mini 7, 2024
                 @[@16, @1]: @[@(GBDeviceModeliPadMini7), @"iPad Mini (7th Gen)", @(GBDeviceDisplay8p3Inch), @326],
                 @[@16, @2]: @[@(GBDeviceModeliPadMini7), @"iPad Mini (7th Gen)", @(GBDeviceDisplay8p3Inch), @326],
@@ -482,10 +486,6 @@
                 // iPad Pro 5th Gen 11-inch, 2024
                 @[@16, @3]: @[@(GBDeviceModeliPadPro11Inch5), @"iPad Pro (11 inch) (M4)", @(GBDeviceDisplay11Inch), @264],
                 @[@16, @4]: @[@(GBDeviceModeliPadPro11Inch5), @"iPad Pro (11 inch) (M4)", @(GBDeviceDisplay11Inch), @264],
-
-                // iPad 11th Gen, 2025
-                @[@16, @5]: @[@(GBDeviceModeliPad11), @"iPad (11th Gen)", @(GBDeviceDisplay10p9Inch), @264],
-                @[@16, @6]: @[@(GBDeviceModeliPad11), @"iPad (11th Gen)", @(GBDeviceDisplay10p9Inch), @264],
 
                 // iPad Pro 7th Gen 13-inch, 2024
                 @[@16, @5]: @[@(GBDeviceModeliPadPro12p9Inch7), @"iPad Pro (13 inch) (M4)", @(GBDeviceDisplay13Inch), @264],
