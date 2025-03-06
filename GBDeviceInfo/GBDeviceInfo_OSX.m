@@ -158,9 +158,11 @@ static NSString * const kHardwareModelKey =                 @"hw.model";
         return GBDeviceFamilyiMac;
     }
     else if ([systemInfoString hasPrefix:@"Macmini"]
-            // See https://support.apple.com/en-us/HT201894
-            || [systemInfoString isEqualToString:@"Mac14,3"]
-            || [systemInfoString isEqualToString:@"Mac14,12"]) {
+             // See https://support.apple.com/en-us/HT201894
+             || [systemInfoString isEqualToString:@"Mac16,10"]
+             || [systemInfoString isEqualToString:@"Mac16,11"]
+             || [systemInfoString isEqualToString:@"Mac14,3"]
+             || [systemInfoString isEqualToString:@"Mac14,12"]) {
         return GBDeviceFamilyMacMini;
     }
     else if (// Mac Studio: See https://support.apple.com/en-us/HT213073
@@ -176,6 +178,11 @@ static NSString * const kHardwareModelKey =                 @"hw.model";
     }
     else if ([systemInfoString hasPrefix:@"MacBookPro"]
              // See https://support.apple.com/en-us/HT201300
+             || [systemInfoString isEqualToString:@"Mac16,1"]
+             || [systemInfoString isEqualToString:@"Mac16,5"]
+             || [systemInfoString isEqualToString:@"Mac16,6"]
+             || [systemInfoString isEqualToString:@"Mac16,7"]
+             || [systemInfoString isEqualToString:@"Mac16,8"]
              || [systemInfoString isEqualToString:@"Mac15,3"]
              || [systemInfoString isEqualToString:@"Mac15,6"]
              || [systemInfoString isEqualToString:@"Mac15,7"]
@@ -192,6 +199,8 @@ static NSString * const kHardwareModelKey =                 @"hw.model";
     }
     else if ([systemInfoString hasPrefix:@"MacBookAir"]
              // See https://support.apple.com/en-us/HT201862
+             || [systemInfoString isEqualToString:@"Mac15,12"]
+             || [systemInfoString isEqualToString:@"Mac15,13"]
              || [systemInfoString isEqualToString:@"Mac14,15"]
              || [systemInfoString isEqualToString:@"Mac14,2"]) {
         return GBDeviceFamilyMacBookAir;
