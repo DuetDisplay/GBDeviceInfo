@@ -306,6 +306,9 @@
 
                 // 16 Plus
                 @[@17, @4]: @[@(GBDeviceModeliPhone16Plus), @"iPhone 16 Plus", @(GBDeviceDisplay6p7Inch), @460],
+
+                // 16e
+                @[@17, @5]: @[@(GBDeviceModeliPhone16E), @"iPhone 16e", @(GBDeviceDisplay6p1Inch), @460],
             },
             @"iPad": @{
                 // 1
