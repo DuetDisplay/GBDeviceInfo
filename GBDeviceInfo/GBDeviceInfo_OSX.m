@@ -199,6 +199,8 @@ static NSString * const kHardwareModelKey =                 @"hw.model";
     }
     else if ([systemInfoString hasPrefix:@"MacBookAir"]
              // See https://support.apple.com/en-us/HT201862
+             || [systemInfoString isEqualToString:@"Mac16,12"]
+             || [systemInfoString isEqualToString:@"Mac16,13"]
              || [systemInfoString isEqualToString:@"Mac15,12"]
              || [systemInfoString isEqualToString:@"Mac15,13"]
              || [systemInfoString isEqualToString:@"Mac14,15"]
