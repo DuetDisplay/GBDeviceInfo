@@ -505,6 +505,14 @@
                 // iPad Pro 7th Gen 13-inch, 2024
                 @[@16, @5]: @[@(GBDeviceModeliPadPro12p9Inch7), @"iPad Pro (13 inch) (M4)", @(GBDeviceDisplay13Inch), @264],
                 @[@16, @6]: @[@(GBDeviceModeliPadPro12p9Inch7), @"iPad Pro (13 inch) (M4)", @(GBDeviceDisplay13Inch), @264],
+
+                // iPad Pro 6th Gen 11-inch, 2025
+                @[@16, @1]: @[@(GBDeviceModeliPadPro11Inch6), @"iPad Pro (11 inch) (M5)", @(GBDeviceDisplay11Inch), @326],
+                @[@16, @2]: @[@(GBDeviceModeliPadPro11Inch6), @"iPad Pro (11 inch) (M5)", @(GBDeviceDisplay11Inch), @326],
+
+                // iPad Pro 8th Gen 13-inch, 2025
+                @[@16, @3]: @[@(GBDeviceModeliPadPro12p9Inch8), @"iPad Pro (13 inch) (M5)", @(GBDeviceDisplay13Inch), @264],
+                @[@16, @4]: @[@(GBDeviceModeliPadPro12p9Inch8), @"iPad Pro (13 inch) (M5)", @(GBDeviceDisplay13Inch), @264],
             },
             @"iPod": @{
                 // 1st Gen
